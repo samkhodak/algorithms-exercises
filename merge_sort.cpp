@@ -73,10 +73,10 @@ int mergesort(int to_sort[], int low, int high)
 			copy_back[k] = to_sort[j];
 			++j;
 		}
-		++k;														//Increment k in temp array each loop iteration.	[5][7][9] [2][8][9]
-	}																  //																								    i         j 
-	//																						 cb [2][5][0] [0][0][0]
-	//																											 k
+		++k;                                //Increment k in temp array each loop iteration.    [5][7][9] [2][8][9]
+		                                    //                                                   i            j
+	                                        //                                               cb [2][5][0] [0][0][0]
+											//                                                         k
 
 	while (i <= mid)									
 	{
