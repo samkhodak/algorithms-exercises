@@ -4,6 +4,7 @@
 #include <sys/time.h>
 
 //This program allows for testing a recursive and iterative binary search algorithm on a large data set.
+//The skeleton code was provided by David Ely. Other code is written by me (binary and linear functions).
 
 
 #define M 100000000
